@@ -1,52 +1,37 @@
 <div class="container">
-    <input type="radio" name="slider" id="item-1" checked>
-    <input type="radio" name="slider" id="item-2">
-    <input type="radio" name="slider" id="item-3">
-  <div class="cards">
-    <label class="card" for="item-1" id="song-1">
-      <img src="https://images.unsplash.com/photo-1530651788726-1dbf58eeef1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80" alt="song">
-    </label>
-    <label class="card" for="item-2" id="song-2">
-      <img src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80" alt="song">
-    </label>
-    <label class="card" for="item-3" id="song-3">
-      <img src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="song">
-    </label>
-  </div>
-  <div class="player">
-    <div class="upper-part">
-      <div class="play-icon">
-        <svg width="20" height="20" fill="#2992dc" stroke="#2992dc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="feather feather-play" viewBox="0 0 24 24">
-          <defs/>
-          <path d="M5 3l14 9-14 9V3z"/>
-        </svg>
-      </div>
-      <div class="info-area" id="test">
-        <label class="song-info" id="song-info-1">
-          <div class="title">Bunker</div>
-          <div class="sub-line">
-            <div class="subtitle">Balthazar</div>
-            <div class="time">4.05</div>
-          </div>
-        </label>
-        <label class="song-info" id="song-info-2">
-          <div class="title">Words Remain</div>
-          <div class="sub-line">
-            <div class="subtitle">Moderator</div>
-            <div class="time">4.05</div>
-          </div>
-        </label>
-        <label class="song-info" id="song-info-3">
-          <div class="title">Falling Out</div>
-          <div class="sub-line">
-            <div class="subtitle">Otzeki</div>
-            <div class="time">4.05</div>
-          </div>
-        </label>
-      </div>
-    </div>
-    <div class="progress-bar">
-      <span class="progress"></span>
-    </div>
-  </div>
-</div>
+	<div class="carousel">
+		<input type="radio" id="carousel-1" name="carousel[]" checked>
+		<input type="radio" id="carousel-2" name="carousel[]">
+     <input type="radio" id="carousel-3" name="carousel[]">
+		<input type="radio" id="carousel-4" name="carousel[]">
+		<input type="radio" id="carousel-5" name="carousel[]">
+		<ul class="carousel__items">
+			<li class="carousel__item"><img src="//lh5.googleusercontent.com/-cTEgPOnd3l8/U8-EmaZ4KNI/AAAAAAAABc8/6eacbALkQ6A/w1358-h905-no/carousel-1.JPG" alt=""></li>
+			<li class="carousel__item"><img src="//lh4.googleusercontent.com/-ntVHbbWX5eo/U8-EmV8P4cI/AAAAAAAABc4/ICYBGkcztTc/w1358-h905-no/carousel-2.jpg" alt=""></li>
+			<li class="carousel__item"><img src="//lh5.googleusercontent.com/-batEXUZE_e4/U8-EmLF9-hI/AAAAAAAABc0/J3tJVUa6Buk/w1358-h905-no/carousel-3.jpg" alt=""></li>
+			<li class="carousel__item"><img src="//lh5.googleusercontent.com/-gywqIeMvel0/U8-EolKdtkI/AAAAAAAABdM/G0-NHuvvJUU/w1358-h905-no/carousel-4.jpg" alt=""></li>
+			<li class="carousel__item"><img src="//lh5.googleusercontent.com/--2iANjL3ikc/U8-EoGJ18mI/AAAAAAAABdI/fBe-q3Gos6Y/w1358-h905-no/carousel-5.jpg" alt=""></li>
+		</ul>
+     <div class="carousel__prev">
+     	<label for="carousel-1"></label>
+     	<label for="carousel-2"></label>
+     	<label for="carousel-3"></label>
+     	<label for="carousel-4"></label>
+     	<label for="carousel-5"></label>
+     </div>
+     <div class="carousel__next">
+       <label for="carousel-1"></label>
+       <label for="carousel-2"></label>
+       <label for="carousel-3"></label>
+       <label for="carousel-4"></label>
+       <label for="carousel-5"></label>
+     </div>
+     <div class="carousel__nav">
+       <label for="carousel-1"></label>
+       <label for="carousel-2"></label>
+       <label for="carousel-3"></label>
+       <label for="carousel-4"></label>
+       <label for="carousel-5"></label>
+     </div>
+   </div>
+ </div>
